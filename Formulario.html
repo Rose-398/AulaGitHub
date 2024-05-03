@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>
+            <img src=imagens/img.png> Pesquisa de Satisfação
+        </h1>
+        <form action="página_destino.html" method="POST">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" placeholder="Seu Nome" id="nome"/>
+            </p>
+            <p>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" placeholder="Seu E-mail" id="email"/>
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input type="text" placeholder="Seu Telefone" id="telefone"/>
+            </p>      
+            <p>
+                <h3>1- Qual o seu nivel de satisfação com a comida?</h3>
+                <input type="radio" id="Ótimo" name="comida"/>
+                <label for="Ótimo">Ótimo</label>
+                <input type="radio" id="Bom" name="comida"/>
+                <label for="Bom">Bom</label>
+                <input type="radio" id="regular" name="comida"/>
+                <label for="regular">Regular</label>
+            </p>
+            <p>
+                <h3>2- Qual o seu nivel de satisfação com a roda de conversa?</h3>
+                <input type="radio" id="Ótimo" name="comida"/>
+                <label for="Ótimo">Ótimo</label>
+                <input type="radio" id="Bom" name="comida"/>
+                <label for="Bom">Bom</label>
+                <input type="radio" id="regular" name="comida"/>
+                <label for="regular">Regular</label>
+            </p>
+            <p>
+                <h3>3- Em qual cidade voce gostaria que fosse o próximo evento?</h3>
+                <select>
+                    <option>Belo Horizonte</option>
+                    <option>Diamantina</option>
+                    <option>Ipatinga</option>
+                    <option>Itabira</option>
+                    <option>Monte Verde</option>                    
+                    <option>Nova Lima</option>
+                    <option>Ouro Preto </option>
+                    <option>Tiradentes</option>
+                </select>
+            </p>
+            <h3>
+                <p>
+                    <input type="checkbox" id="termos"/>
+                    <label for="termmos"><em>Autorizo compartilhar minha resposta com terceiros.</em></label>
+                </p>
+            </h3>
+            <input type="submit" value="Enviar"/>
+        </form>     
+    </body>
+</html>
