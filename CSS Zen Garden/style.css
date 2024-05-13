@@ -1,0 +1,11 @@
+/*Color Theme Swatches in Hex
+.Parisian-woman-fashion-illustration-for-brand-packaging-1-hex { color: #F2A0B6; }
+.destaque { color: #F272A1; }
+.princial { color: #F291B5; }
+.Parisian-woman-fashion-illustration-for-brand-packaging-4-hex { color: #F2F2F2; }
+.background { color: #8C8C8C; }*/
+
+html {
+    background: #8C8C8C;
+    color: #F291B5;
+}
